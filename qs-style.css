@@ -1,0 +1,71 @@
+/* This is the CSS code corresponding to the Queen Elizabeth 
+vs Sonic HTML file named practice-doc */ 
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.center{
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	text-align: center;
+}
+
+#page-title {
+	font-family: "Lora", serif;
+	border: 2px solid green;
+	color: green;
+	background-color: #ddebe0;
+	font-size: 40px;
+	position: fixed;
+	margin: auto;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing:0.1em;
+
+}
+
+h1, h2 {
+	color: green;
+	font-family:"Lora", serif;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+p, li {
+	font-family:"Lora";
+	color: darkslategray;
+	font-size: 20px;
+}
+
+ul {
+	width: 30%;
+	margin: auto;
+	border: 1px dotted darkslategray;
+}
+
+li {
+	list-style-position: inside;
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+	margin: auto;
+}
+
+
+
+.whitespace {
+	visibility: hidden;
+	padding: 50px;
+}
+
+img {
+	clear:both;
+}
+
